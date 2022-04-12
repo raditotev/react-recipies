@@ -1,3 +1,5 @@
+// credit goes to: Kent C. Dodds https://kentcdodds.com/
+
 const AuthContext = React.createContext({
   isAuthenticated: false,
   login: () => {},
@@ -55,4 +57,3 @@ ReactDOM.render(
   </AuthProvider>,
   document.getElementById('root')
 );
-
